@@ -1,56 +1,50 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# ONlINE MATH CALCULATOR USING REACT
 
-> Description the project.
+> "Math magicians" is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to: Make simple calculations. Read a random math-related quote.
 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML
+- CSS
+- JavaScrpt
+- REACT
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://livedemo.com)
-
-
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
+[Live Demo Link]()
 
 ### Setup
+- To clone the repository run `[https://github.com/NATASHA-ct/Online-Calculator-Math-Magicians.git]` in your terminal
+- run cd Leaderboard
+- run npm install
+- run npm run build
+- open the app directory using this >  cd math-magician
+- run npm start to view wbsite
+- npm test
+Launches the test runner in the interactive watch
+
+### Prerequisites
+-Github flow knowledge.
+-Basic CSS,HTML,JavaScript,React.
+-Installation of files.
 
 ### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
+- Set up Github Actions
+- Set up linter > Lighthouse , Webhint ,Stylelint ,
+- Added Eslint
+- REACT
 
 
 ## Authors
 
-👤 **Author1**
+👤 **NATASHA TATENDA CHIROMBE**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@NATASHA-ct]((https://github.com/NATASHA-ct)
+- Twitter: [@NatashaChirombe]
+- LinkedIn: [Natasha Chirombe](linkedin.com/in/natasha-chirombe-1531aa17b)
 
 ## 🤝 Contributing
 
@@ -62,14 +56,6 @@ Feel free to check the [issues page](../../issues/).
 
 Give a ⭐️ if you like this project!
 
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
-
 ## 📝 License
 
-This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
+This project is [MIT](./MIT.md) licensed.
