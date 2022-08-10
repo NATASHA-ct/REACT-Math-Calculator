@@ -1,13 +1,12 @@
-import React, { useState } from 'react';
-import calculate from '../logic/calculate';
+import React, { useState } from "react";
+import calculate from "../logic/calculate";
 
 const Calculator = () => {
   const [state, setState] = useState(0);
   const clickBtn = (e) => {
-    setState(((state) => calculate(state, e.target.textContent)));
+    setState((state) => calculate(state, e.target.textContent));
   };
 
-  // const { next, total } = state;
   return (
     <>
       <div className="main-container">
