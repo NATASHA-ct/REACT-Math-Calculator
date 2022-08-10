@@ -1,132 +1,90 @@
-import React from 'react';
+import React, { useState } from 'react';
 import calculate from '../logic/calculate';
 
-class Calculator extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {};
-    this.clickBtn = this.clickBtn.bind(this);
-  }
+const Calculator = () => {
+  const [state, setState] = useState(0);
+  const clickBtn = (e) => {
+    setState((state) => calculate(state, e.target.textContent));
+  };
 
-  clickBtn(e) {
-    this.setState((state) => calculate(state, e.target.textContent));
-  }
-
-  render() {
-    const { next, total } = this.state;
-    return (
+  return (
+    <>
       <div className="main-container">
         <div className="display">
-          <span>{next || total || 0}</span>
+          <span>{state.next || state.total || 0}</span>
         </div>
 
         <div className="all-btns">
           {/* first row buttons */}
-          <button
-            className="operator grey"
-            type="button"
-            onClick={this.clickBtn}
-          >
+          <button className="operator grey" type="button" onClick={clickBtn}>
             AC
           </button>
-          <button
-            className="operator grey"
-            type="button"
-            onClick={this.clickBtn}
-          >
+          <button className="operator grey" type="button" onClick={clickBtn}>
             +/-
           </button>
-          <button
-            className="operator grey"
-            type="button"
-            onClick={this.clickBtn}
-          >
+          <button className="operator grey" type="button" onClick={clickBtn}>
             %
           </button>
-          <button
-            className="operator orange"
-            type="button"
-            onClick={this.clickBtn}
-          >
+          <button className="operator orange" type="button" onClick={clickBtn}>
             ÷
           </button>
 
           {/* second row buttons */}
-          <button className="num grey" type="button" onClick={this.clickBtn}>
+          <button className="num grey" type="button" onClick={clickBtn}>
             7
           </button>
-          <button className="num grey" type="button" onClick={this.clickBtn}>
+          <button className="num grey" type="button" onClick={clickBtn}>
             8
           </button>
-          <button className="num grey" type="button" onClick={this.clickBtn}>
+          <button className="num grey" type="button" onClick={clickBtn}>
             9
           </button>
-          <button
-            className="operator orange"
-            type="button"
-            onClick={this.clickBtn}
-          >
+          <button className="operator orange" type="button" onClick={clickBtn}>
             x
           </button>
 
           {/* third row buttons */}
-          <button className="num grey" type="button" onClick={this.clickBtn}>
+          <button className="num grey" type="button" onClick={clickBtn}>
             4
           </button>
-          <button className="num grey" type="button" onClick={this.clickBtn}>
+          <button className="num grey" type="button" onClick={clickBtn}>
             5
           </button>
-          <button className="num grey" type="button" onClick={this.clickBtn}>
+          <button className="num grey" type="button" onClick={clickBtn}>
             6
           </button>
-          <button
-            className="operator orange"
-            type="button"
-            onClick={this.clickBtn}
-          >
+          <button className="operator orange" type="button" onClick={clickBtn}>
             -
           </button>
 
           {/* fourth row buttons */}
-          <button className="num grey" type="button" onClick={this.clickBtn}>
+          <button className="num grey" type="button" onClick={clickBtn}>
             1
           </button>
-          <button className="num grey" type="button" onClick={this.clickBtn}>
+          <button className="num grey" type="button" onClick={clickBtn}>
             2
           </button>
-          <button className="num grey" type="button" onClick={this.clickBtn}>
+          <button className="num grey" type="button" onClick={clickBtn}>
             3
           </button>
-          <button
-            className="operator orange"
-            type="button"
-            onClick={this.clickBtn}
-          >
+          <button className="operator orange" type="button" onClick={clickBtn}>
             +
           </button>
 
           {/* last row buttons */}
-          <button
-            className="num zero grey"
-            type="button"
-            onClick={this.clickBtn}
-          >
+          <button className="num zero grey" type="button" onClick={clickBtn}>
             0
           </button>
-          <button className="num grey" type="button" onClick={this.clickBtn}>
+          <button className="num grey" type="button" onClick={clickBtn}>
             .
           </button>
-          <button
-            className="operator orange"
-            type="button"
-            onClick={this.clickBtn}
-          >
+          <button className="operator orange" type="button" onClick={clickBtn}>
             =
           </button>
         </div>
       </div>
-    );
-  }
-}
+    </>
+  );
+};
 
 export default Calculator;
