@@ -8,8 +8,11 @@ const Calculator = () => {
   };
 
   return (
-    <>
+    <div className="outer-container">
+      <h2 className="Lets">Let&apos;s do some math!</h2>
+
       <div className="main-container">
+
         <div className="display">
           <span>{state.next || state.total || 0}</span>
         </div>
@@ -83,7 +86,7 @@ const Calculator = () => {
           </button>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

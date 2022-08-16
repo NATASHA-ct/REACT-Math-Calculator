@@ -6,10 +6,11 @@ const Quote = () => (
     <h3 className="quoteHead">
       {' '}
       {/* eslint-disable max-len */}
-      Without mathematics, there’s nothing you can do. Everything around you is
-      mathematics. Everything around you is numbers. max-len
+      “Mathematics is a hard thing to love. It has the unfortunate habit, like a
+      rude dog, of turning its most unfavorable side towards you when you first
+      make contact with it.”
       <br />
-      (Shakuntala Devi), Indian writer and mental calculator, 10 Jun 1944
+      (David Whiteland),  mental calculator, 10 Jun 1944
     </h3>
   </div>
 );

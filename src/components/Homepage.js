@@ -1,7 +1,7 @@
 const Home = () => (
   <section className="home-section">
     <div className="home-container">
-      <h2 className="home-header">Welcome to Math our page!</h2>
+      <h2 className="home-header">Welcome to our page!</h2>
       <p className="homepara">
         A mathemagician is a mathematician who is also a magician. The term
         mathemagic is believed to have been introduced by Royal Vale Heath with
