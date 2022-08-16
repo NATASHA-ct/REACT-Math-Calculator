@@ -1,6 +1,7 @@
 body {
   width: 100%;
   color: #000;
+  background-color:#a5c8e4 ;
 }
 
 *,
@@ -9,7 +10,7 @@ body {
   box-sizing: inherit;
   margin: 0;
   padding: 0;
-}
+  }
 
 :root {
   --darkgrey: #6c696f;
@@ -74,4 +75,116 @@ body {
 
 button {
   border: 1px solid #b5b1b1;
+}
+
+/* Main Page */
+.navMenu {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 10px;
+  gap: 30px;
+  padding: 20px;
+}
+
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #4f3222;
+  color: #a5c8e4;
+  align-items: center;
+}
+
+.navHead {
+  margin-left: 20px;
+  color: #a5c8e4;
+}
+
+.navMenu a {
+  color: #a5c8e4;
+  padding: 8px;
+  text-decoration:none;
+ }
+
+.navMenu li {
+  list-style: none;
+}
+
+.navMenu:nth-child(3n) {
+  border-right: none;
+}
+
+/* /* Homepage start here  */
+.home-section{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.home-header{
+    margin-top:1em;
+}
+
+.home-container {
+  background-color: #e98145;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  margin-top:4em;
+  margin-bottom: 4em;
+  align-self: center;
+  gap: 20px;
+  color:#083357;
+}
+
+.home-container p {
+  padding: 20px;
+}
+
+
+
+/* quotation page starts here */
+
+.quoteCont {
+  color: #333;
+  width: 50%;
+  position: relative;
+  left: 25%;
+  right: 25%;
+  margin-top: 20%;
+}
+
+@media only screen and (max-width: 768px) {
+  .buttons {
+    width: 50%;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    justify-content: center;
+    position: relative;
+    left: 4%;
+    gap: 10px;
+    align-self: center;
+  }
+
+  .calc-box {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0;
+    text-align: right;
+    padding-right: 14px;
+    width: 50%;
+    float: right;
+    align-self: center;
+  }
+
+  .calc-title {
+    text-align: center;
+    align-self: center;
+  }
 }
