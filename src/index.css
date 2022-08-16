@@ -1,6 +1,7 @@
 body {
   width: 100%;
   color: #000;
+  background-color: #a5c8e4;
 }
 
 *,
@@ -17,13 +18,23 @@ body {
   --orange: rgb(238, 135, 55);
 }
 
+.outer-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+
+.Lets {
+  margin-top: 3em;
+  font-size: 32px;
+}
+
 .main-container {
   display: flex;
   flex-direction: column;
   background-color: var(--lightgrey);
   box-shadow: 0 2px 64px rgb(133, 129, 129);
   width: 55%;
-  margin: 0 auto;
   margin-top: 3em;
 }
 
@@ -74,4 +85,117 @@ body {
 
 button {
   border: 1px solid #b5b1b1;
+}
+
+/* Main Page */
+.navMenu {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 10px;
+  gap: 30px;
+  padding: 20px;
+}
+
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #4f3222;
+  color: #a5c8e4;
+  align-items: center;
+}
+
+.navHead {
+  margin-left: 20px;
+  color: #a5c8e4;
+}
+
+.navMenu a {
+  color: #a5c8e4;
+  padding: 8px;
+  text-decoration: none;
+}
+
+.navMenu li {
+  list-style: none;
+}
+
+.navMenu:nth-child(3n) {
+  border-right: none;
+}
+
+/* /* Homepage start here  */
+.home-section {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.home-header {
+  margin-top: 1em;
+}
+
+.home-container {
+  background-color: #e98145;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  margin-top: 4em;
+  margin-bottom: 4em;
+  align-self: center;
+  gap: 20px;
+  color: #083357;
+}
+
+.home-container p {
+  padding: 20px;
+}
+
+/* quotation page starts here */
+
+.quoteCont {
+  color: #333;
+  margin: auto 0;
+}
+
+.quoteHead {
+  font-size: 1.5rem;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin-top: 8em;
+  margin-left: 2em;
+}
+
+@media only screen and (max-width: 768px) {
+  .buttons {
+    width: 50%;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    justify-content: center;
+    position: relative;
+    left: 4%;
+    gap: 10px;
+    align-self: center;
+  }
+
+  .calc-box {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0;
+    text-align: right;
+    padding-right: 14px;
+    width: 50%;
+    float: right;
+    align-self: center;
+  }
+
+  .calc-title {
+    text-align: center;
+    align-self: center;
+  }
 }
