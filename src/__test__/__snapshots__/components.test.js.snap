@@ -58,6 +58,7 @@ exports[`Rendering components Test if it satiesfies snapshot for Caculator 1`] =
   >
     <div
       className="display"
+      data-testid="display"
     >
       <span>
         0
@@ -152,6 +153,7 @@ exports[`Rendering components Test if it satiesfies snapshot for Caculator 1`] =
       </button>
       <button
         className="num grey"
+        data-testid="1"
         onClick={[Function]}
         type="button"
       >
