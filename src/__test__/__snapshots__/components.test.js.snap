@@ -185,3 +185,18 @@ exports[`Rendering components Test if it satiesfies snapshot for Home 1`] = `
   </div>
 </section>
 `;
+
+exports[`Rendering components Test if it satiesfies snapshot for Quote 1`] = `
+<div
+  className="quoteCont"
+>
+  <h3
+    className="quoteHead"
+  >
+     
+    “Mathematics is a hard thing to love. It has the unfortunate habit, like a rude dog, of turning its most unfavorable side towards you when you first make contact with it.”
+    <br />
+    (David Whiteland),  mental calculator, 10 Jun 1944
+  </h3>
+</div>
+`;
