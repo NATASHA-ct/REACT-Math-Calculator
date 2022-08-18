@@ -1,5 +1,49 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Rendering components Test if it satiesfies Renders Navbar component 1`] = `
+<nav
+  className="navBar"
+>
+  <h1
+    className="navHead"
+  >
+    Math Magicians
+  </h1>
+  <ul
+    className="navMenu"
+  >
+    <li>
+      <a
+        aria-current="page"
+        className="active"
+        href="/"
+        onClick={[Function]}
+      >
+        Home
+      </a>
+    </li>
+    <li>
+      <a
+        className=""
+        href="/Calculator"
+        onClick={[Function]}
+      >
+        Calculator
+      </a>
+    </li>
+    <li>
+      <a
+        className=""
+        href="/Quote"
+        onClick={[Function]}
+      >
+        Quote
+      </a>
+    </li>
+  </ul>
+</nav>
+`;
+
 exports[`Rendering components Test if it satiesfies snapshot for Caculator 1`] = `
 <div
   className="outer-container"
