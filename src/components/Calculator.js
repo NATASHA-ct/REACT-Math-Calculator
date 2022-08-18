@@ -29,7 +29,7 @@ const Calculator = () => {
           <button className="operator grey" type="button" onClick={clickBtn}>
             %
           </button>
-          
+
           <button className="operator orange" type="button" onClick={clickBtn}>
             ÷
           </button>
