@@ -12,8 +12,7 @@ const Calculator = () => {
       <h2 className="Lets">Let&apos;s do some math!</h2>
 
       <div className="main-container">
-
-        <div className="display">
+        <div className="display" data-testid="display">
           <span>{state.next || state.total || 0}</span>
         </div>
 
@@ -25,9 +24,11 @@ const Calculator = () => {
           <button className="operator grey" type="button" onClick={clickBtn}>
             +/-
           </button>
+
           <button className="operator grey" type="button" onClick={clickBtn}>
             %
           </button>
+
           <button className="operator orange" type="button" onClick={clickBtn}>
             ÷
           </button>
@@ -61,7 +62,12 @@ const Calculator = () => {
           </button>
 
           {/* fourth row buttons */}
-          <button className="num grey" type="button" onClick={clickBtn}>
+          <button
+            className="num grey"
+            data-testid="1"
+            type="button"
+            onClick={clickBtn}
+          >
             1
           </button>
           <button className="num grey" type="button" onClick={clickBtn}>

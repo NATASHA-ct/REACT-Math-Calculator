@@ -46,6 +46,16 @@ Launches the test runner in the interactive watch
 - Twitter: [@NatashaChirombe]
 - LinkedIn: [Natasha Chirombe](linkedin.com/in/natasha-chirombe-1531aa17b)
 
+## Colaboration Partner for Testing
+
+👤 **KRISHNA**
+
+- GitHub: [@Krishnabot](https://github.com/Krishnabot)
+- Twitter: [@last_matrix](https://twitter.com/last_matrix)
+- LinkedIn: [@krishnabot](https://www.linkedin.com/in/krishnabot/)
+- HackerRank [@KrishnaBot](https://www.hackerrank.com/KrishnaBot)
+
+
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
