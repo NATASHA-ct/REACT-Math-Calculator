@@ -14,7 +14,7 @@
 
 ## Live Demo in progress , web app to be deployed...()
 
-[Live Demo Link]()
+[Live Demo Link](https://phenomenal-rugelach-2147c0.netlify.app)
 
 ### Setup
 - To clone the repository run `[https://github.com/NATASHA-ct/Online-Calculator-Math-Magicians.git]` in your terminal
