@@ -12,8 +12,7 @@
 - JavaScrpt
 - REACT
 
-## Live Demo in progress , web app to be deployed...()
-
+## Live Demo 
 [Live Demo Link](https://phenomenal-rugelach-2147c0.netlify.app)
 
 ### Setup
