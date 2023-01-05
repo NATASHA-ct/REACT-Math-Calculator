@@ -2,7 +2,7 @@
 
 # ONLINE MATH CALCULATOR USING REACT
 
-> "Math magicians" is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to make simple calculations and read a random math-related quote.
+> This a Single Page Application that allows users to perform simple calculations and read random quotes related to math. This app provides a quick and easy way for users to access these simple tools and resources.
 
 
 ## Built With
